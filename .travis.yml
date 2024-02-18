@@ -4,19 +4,21 @@ node_js:
 
 cache:
   directories:
-    - node_modules
+    - "node_modules"
 
 install:
   - npm install
+  - npm install -g yarn 
 
 script:
-  - npm test
-  - npm run build
+  - npm run test # or 'yarn test'
+  - npm run build # or 'yarn build'
 
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN
+  github_token: $GITHUB_TOKEN 
+  keep_history: true
   local_dir: build
   on:
-    branch: master
+    branch: main
