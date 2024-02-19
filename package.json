@@ -1,14 +1,7 @@
 {
-<<<<<<< HEAD
   "name": "devops_comp2156_lab6",
   "version": "0.1.0",
   "private": true,
-=======
-  "name": "comp2156",
-  "version": "1.0.0",
-  "private": true,
-  "homepage": "https://phillipbr.github.io/COMP2156",
->>>>>>> origin/main
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -21,12 +14,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-<<<<<<< HEAD
     "predeploy": "npm run build",
     "test": "echo \"Warning: No tests created yet.\"",
-=======
-    "test": "react-scripts test",
->>>>>>> origin/main
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
